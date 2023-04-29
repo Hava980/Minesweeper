@@ -1,4 +1,3 @@
-//chava haviv - 211737440
 #include "mineSweeper.h"
 #include "colorPrint.h"
 #include "getch.h"
