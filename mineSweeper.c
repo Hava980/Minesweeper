@@ -1,4 +1,3 @@
-//chava haviv - 211737440
 #include "mineSweeper.h"
 #include "colorPrint.h"
 #include <stdio.h>
@@ -106,7 +105,7 @@ void clickTile(GameBoard *g, int row, int col) {
 
     if (g->board[row][col].isMine) {
         g->board[row][col].isVisible = TRUE;
-        g->isMineClicked = TRUE;//סוף משחק
+        g->isMineClicked = TRUE;
         return;
         //if we click on a mine.
     } else {
